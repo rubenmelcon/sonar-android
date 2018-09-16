@@ -41,12 +41,12 @@
   </issueManagement>
 
   <properties>
-    <sonar-java.version>2.1</sonar-java.version>
+    <sonar-java.version>3.2</sonar-java.version>
     <lint.version>22.5.0</lint.version>
     <simplexml.version>2.7.1</simplexml.version>
-    <jsr305.version>3.0.0</jsr305.version>
-    <slf4j.version>1.7.10</slf4j.version>
-    <commons-io.version>2.4</commons-io.version>
+    <jsr305.version>3.0.2</jsr305.version>
+    <slf4j.version>1.7.25</slf4j.version>
+    <commons-io.version>2.6</commons-io.version>
     <maven.test.redirectTestOutputToFile>true</maven.test.redirectTestOutputToFile>
     <!-- license headers -->
     <license.owner>SonarSource SA and Jerome Van Der Linden, Stephane Nicolas, Florian Roncari, Thomas Bores</license.owner>
