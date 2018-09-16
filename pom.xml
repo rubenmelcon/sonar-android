@@ -42,7 +42,7 @@
 
   <properties>
     <sonar-java.version>2.1</sonar-java.version>
-    <lint.version>22.2.0</lint.version>
+    <lint.version>22.5.0</lint.version>
     <simplexml.version>2.7.1</simplexml.version>
     <jsr305.version>3.0.0</jsr305.version>
     <slf4j.version>1.7.10</slf4j.version>
@@ -85,16 +85,19 @@
         <groupId>com.google.code.findbugs</groupId>
         <artifactId>jsr305</artifactId>
         <version>${jsr305.version}</version>
+          <scope>provided</scope>
       </dependency>
       <dependency>
         <groupId>org.slf4j</groupId>
         <artifactId>slf4j-api</artifactId>
         <version>${slf4j.version}</version>
+          <scope>provided</scope>
       </dependency>
       <dependency>
         <groupId>org.slf4j</groupId>
         <artifactId>slf4j-jdk14</artifactId>
         <version>${slf4j.version}</version>
+          <scope>provided</scope>
       </dependency>
       <dependency>
         <groupId>commons-io</groupId>
