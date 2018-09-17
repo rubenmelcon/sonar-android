@@ -90,7 +90,7 @@ public class AndroidLintSensorTest {
     fs = new DefaultFileSystem(new File("")) {
       @Override
       public Iterable<InputFile> inputFiles(FilePredicate predicate) {
-        return Lists.<InputFile>newArrayList(new DefaultInputFile("relativePath"));
+        return Lists.<InputFile>newArrayList(new DefaultInputFile("","relativePath"));
       }
     };
     settings.setProperty(AndroidPlugin.LINT_REPORT_PROPERTY, "src/test/resources/lint-report.xml");

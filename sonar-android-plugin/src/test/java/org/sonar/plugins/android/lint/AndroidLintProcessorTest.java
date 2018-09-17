@@ -65,7 +65,7 @@ public class AndroidLintProcessorTest {
     fs = new DefaultFileSystem(new File("")) {
       @Override
       public Iterable<InputFile> inputFiles(FilePredicate predicate) {
-        return Lists.<InputFile>newArrayList(new DefaultInputFile("relativePath"));
+        return Lists.<InputFile>newArrayList(new DefaultInputFile("","relativePath"));
       }
     };
     perspectives = mock(ResourcePerspectives.class);
