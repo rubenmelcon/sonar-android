@@ -41,7 +41,7 @@
   </issueManagement>
 
   <properties>
-    <sonar-java.version>3.2</sonar-java.version>
+    <sonar-java.version>3.4</sonar-java.version>
     <lint.version>22.5.0</lint.version>
     <simplexml.version>2.7.1</simplexml.version>
     <jsr305.version>3.0.2</jsr305.version>
@@ -105,7 +105,7 @@
         <version>${commons-io.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.codehaus.sonar-plugins.java</groupId>
+        <groupId>org.sonarsource.java</groupId>
         <artifactId>sonar-java-plugin</artifactId>
         <version>${sonar-java.version}</version>
         <scope>provided</scope>
